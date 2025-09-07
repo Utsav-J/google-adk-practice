@@ -1,0 +1,13 @@
+The Requirements Writer Agent is responsible for interpreting user queries and transforming them into clear, structured website requirements. 
+It acts as the first step in the Website Builder workflow, ensuring the root agent and other sub-agents have an accurate understanding of what the user wants before any code is generated.
+
+The agent takes in unstructured or conversational input from the user (e.g., “I need a landing page for my SaaS with pricing and testimonials”) and outputs well-defined requirements, including:
+- Website purpose (e.g., portfolio, business, product landing page).
+- Target audience / users.
+- Content sections (e.g., hero, about, services, pricing, contact form).
+- Design preferences (color palette, typography, layout style).
+- Functionality needs (forms, navigation, animations, interactivity).
+- Assets required (images, logos, icons, text content, external links).
+- SEO and metadata needs (title, description, keywords).
+
+
