@@ -9,8 +9,8 @@ from google.adk.agents import LlmAgent, ParallelAgent
 from google.adk.tools import google_search
 from utils.file_utils import load_txt_file
 
-base_description = load_txt_file("description.txt")
-base_instruction = load_txt_file("instruction.txt")
+base_description = load_txt_file("agents/question_researcher/description.txt")
+base_instruction = load_txt_file("agents/question_researcher/instruction.txt")
 
 
 question_researcher_1 = LlmAgent(

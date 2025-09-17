@@ -10,8 +10,9 @@ from utils.file_utils import load_txt_file
 
 question_generator_agent = LlmAgent(
     name="question_generator_agent",
-    description=load_txt_file("description.txt"),
-    instruction=load_txt_file("instruction.txt"),
+    model="gemini-2.5-flash",
+    description=load_txt_file("./description.txt"),
+    instruction=load_txt_file("./instructions.txt"),
     tools=[google_search],
     output_key="question_generator_output"
 )
